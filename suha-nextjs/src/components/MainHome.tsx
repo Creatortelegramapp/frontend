@@ -11,12 +11,12 @@ import { useInitData, useLaunchParams, type User } from '@telegram-apps/sdk-reac
 const MainHome = () => {
 	const [show, setShow] = useState(false);
 	const handleShow = () => setShow(!show);
-	const initDataRaw = useLaunchParams().initDataRaw;
-	const initData = useInitData();
+	// const initDataRaw = useLaunchParams().initDataRaw;
+	// const initData = useInitData();
 
 	useEffect(() => {
-		console.log('initDataRaw -> ', initDataRaw);
-		console.log('initData -> ', initData);
+		// console.log('initDataRaw -> ', initDataRaw);
+		// console.log('initData -> ', initData);
 	}, [])
 
 	return (

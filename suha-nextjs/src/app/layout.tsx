@@ -12,7 +12,7 @@ export default function RootLayout({
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
-	const debug = useLaunchParams().startParam === 'debug';
+	// const debug = useLaunchParams().startParam === 'debug';
 
 	return (
 		<html lang="en" theme-color="dark">
@@ -25,7 +25,7 @@ export default function RootLayout({
 			</head>
 
 			<body>
-			<SDKProvider acceptCustomStyles debug={debug}>
+			<SDKProvider acceptCustomStyles debug={true}>
 				{children}
 			</SDKProvider>
 			</body>
