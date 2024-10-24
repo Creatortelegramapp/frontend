@@ -1,5 +1,8 @@
+'use client'
+
 import "../styles/style.css";
 import "../styles/style.scss";
+import {SDKProvider, useLaunchParams} from "@telegram-apps/sdk-react";
 
 
 
@@ -9,6 +12,8 @@ export default function RootLayout({
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
+	// const debug = useLaunchParams().startParam === 'debug';
+
 	return (
 		<html lang="en" theme-color="dark">
 			<head>
@@ -19,7 +24,11 @@ export default function RootLayout({
 
 			</head>
 
-			<body>{children}</body>
+			<body>
+			<SDKProvider acceptCustomStyles debug={true}>
+				{children}
+			</SDKProvider>
+			</body>
 		</html>
 	);
 }
