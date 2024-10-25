@@ -1,0 +1,1 @@
+export const basePath = '/frontend/suha-nextjs/out';
