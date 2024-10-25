@@ -3,7 +3,6 @@
 import React from "react";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {basePath} from "../../../config";
 
 const HeroSlider = () => {
 	return (
@@ -19,7 +18,7 @@ const HeroSlider = () => {
 						>
 							<SwiperSlide
 								className="single-hero-slide"
-								style={{ backgroundImage: `url(${basePath}/assets/img/bg-img/1.jpg)` }}
+								style={{ backgroundImage: `url(/assets/img/bg-img/1.jpg)` }}
 							>
 								<div className="slide-content h-100 d-flex align-items-center">
 									<div className="slide-text">
@@ -54,7 +53,7 @@ const HeroSlider = () => {
 
 							<SwiperSlide
 								className="single-hero-slide"
-								style={{ backgroundImage: `url(${basePath}/assets/img/bg-img/2.jpg)` }}
+								style={{ backgroundImage: `url(/assets/img/bg-img/2.jpg)` }}
 							>
 								<div className="slide-content h-100 d-flex align-items-center">
 									<div className="slide-text">
@@ -89,7 +88,7 @@ const HeroSlider = () => {
 
 							<SwiperSlide
 								className="single-hero-slide"
-								style={{ backgroundImage: `url(${basePath}/assets/img/bg-img/3.jpg)` }}
+								style={{ backgroundImage: `url(/assets/img/bg-img/3.jpg)` }}
 							>
 								<div className="slide-content h-100 d-flex align-items-center">
 									<div className="slide-text">
