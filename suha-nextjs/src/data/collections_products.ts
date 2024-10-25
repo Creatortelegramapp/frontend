@@ -1,5 +1,3 @@
-import {basePath} from "../../config";
-
 interface DataType {
 	id: number;
 	img: string;
@@ -10,37 +8,37 @@ interface DataType {
 const collections_products: DataType[] = [
 	{
 		id: 1,
-		img: `${basePath}/assets/img/product/17.jpg`,
+		img: "/assets/img/product/17.jpg",
 		category: "Women",
 		stock: 9,
 	},
 	{
 		id: 1,
-		img: `${basePath}/assets/img/product/19.jpg`,
+		img: "/assets/img/product/19.jpg",
 		category: "Men",
 		stock: 29,
 	},
 	{
 		id: 1,
-		img: `${basePath}/assets/img/product/21.jpg`,
+		img: "/assets/img/product/21.jpg",
 		category: "Kids",
 		stock: 4,
 	},
 	{
 		id: 1,
-		img: `${basePath}/assets/img/product/22.jpg`,
+		img: "/assets/img/product/22.jpg",
 		category: "Gadget",
 		stock: 11,
 	},
 	{
 		id: 1,
-		img: `${basePath}/assets/img/product/23.jpg`,
+		img: "/assets/img/product/23.jpg",
 		category: "Foods",
 		stock: 2,
 	},
 	{
 		id: 1,
-		img: `${basePath}/assets/img/product/24.jpg`,
+		img: "/assets/img/product/24.jpg",
 		category: "Sports",
 		stock: 5,
 	},

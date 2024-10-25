@@ -1,5 +1,3 @@
-import {basePath} from "../../config";
-
 interface DataType {
 	id: number;
 	img: string;
@@ -12,7 +10,7 @@ interface DataType {
 const featured_products: DataType[] = [
 	{
 		id: 1,
-		img: `${basePath}/assets/img/product/14.png`,
+		img: "/assets/img/product/14.png",
 		title: "Blue Skateboard",
 		new_price: 39,
 		old_price: 89,
@@ -20,7 +18,7 @@ const featured_products: DataType[] = [
 	},
 	{
 		id: 2,
-		img: `${basePath}/assets/img/product/15.png`,
+		img: "/assets/img/product/15.png",
 		title: "Travel Bag",
 		new_price: 14.7,
 		old_price: 21,
@@ -28,7 +26,7 @@ const featured_products: DataType[] = [
 	},
 	{
 		id: 3,
-		img: `${basePath}/assets/img/product/16.png`,
+		img: "/assets/img/product/16.png",
 		title: "Cotton T-shirts",
 		new_price: 3.69,
 		old_price: 5,
@@ -36,7 +34,7 @@ const featured_products: DataType[] = [
 	},
 	{
 		id: 4,
-		img: `${basePath}/assets/img/product/21.png`,
+		img: "/assets/img/product/21.png",
 		title: "ECG Rice Cooker",
 		new_price: 9.99,
 		old_price: 13,
@@ -44,7 +42,7 @@ const featured_products: DataType[] = [
 	},
 	{
 		id: 5,
-		img: `${basePath}/assets/img/product/20.png`,
+		img: "/assets/img/product/20.png",
 		title: "Beauty Cosmetics",
 		new_price: 5.99,
 		old_price: 8,
@@ -52,7 +50,7 @@ const featured_products: DataType[] = [
 	},
 	{
 		id: 6,
-		img: `${basePath}/assets/img/product/19.png`,
+		img: "/assets/img/product/19.png",
 		title: "Basketball",
 		new_price: 16,
 		old_price: 20,

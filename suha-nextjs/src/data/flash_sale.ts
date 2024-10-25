@@ -1,5 +1,3 @@
-import {basePath} from "../../config";
-
 interface DataType {
 	id: number;
 	color: string;
@@ -15,7 +13,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 1,
 		color: "",
-		img: `${basePath}/assets/img/product/1.png`,
+		img: "/assets/img/product/1.png",
 		new_price: 7.99,
 		old_price: 15,
 		discount: 33,
@@ -25,7 +23,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 2,
 		color: "",
-		img: `${basePath}/assets/img/product/2.png`,
+		img: "/assets/img/product/2.png",
 		new_price: 14,
 		old_price: 21,
 		discount: 77,
@@ -35,7 +33,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 3,
 		color: "bg-danger",
-		img: `${basePath}/assets/img/product/3.png`,
+		img: "/assets/img/product/3.png",
 		new_price: 36,
 		old_price: 49,
 		discount: 99,
@@ -46,7 +44,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 1,
 		color: "",
-		img: `${basePath}/assets/img/product/1.png`,
+		img: "/assets/img/product/1.png",
 		new_price: 7.99,
 		old_price: 15,
 		discount: 33,
@@ -56,7 +54,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 2,
 		color: "",
-		img: `${basePath}/assets/img/product/2.png`,
+		img: "/assets/img/product/2.png",
 		new_price: 14,
 		old_price: 21,
 		discount: 77,
@@ -66,7 +64,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 3,
 		color: "bg-danger",
-		img: `${basePath}/assets/img/product/3.png`,
+		img: "/assets/img/product/3.png",
 		new_price: 36,
 		old_price: 49,
 		discount: 99,
@@ -77,7 +75,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 1,
 		color: "",
-		img: `${basePath}/assets/img/product/1.png`,
+		img: "/assets/img/product/1.png",
 		new_price: 7.99,
 		old_price: 15,
 		discount: 33,
@@ -87,7 +85,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 2,
 		color: "",
-		img: `${basePath}/assets/img/product/2.png`,
+		img: "/assets/img/product/2.png",
 		new_price: 14,
 		old_price: 21,
 		discount: 77,
@@ -97,7 +95,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 3,
 		color: "bg-danger",
-		img: `${basePath}/assets/img/product/3.png`,
+		img: "/assets/img/product/3.png",
 		new_price: 36,
 		old_price: 49,
 		discount: 99,
@@ -108,7 +106,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 1,
 		color: "",
-		img: `${basePath}/assets/img/product/1.png`,
+		img: "/assets/img/product/1.png",
 		new_price: 7.99,
 		old_price: 15,
 		discount: 33,
@@ -118,7 +116,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 2,
 		color: "",
-		img: `${basePath}/assets/img/product/2.png`,
+		img: "/assets/img/product/2.png",
 		new_price: 14,
 		old_price: 21,
 		discount: 77,
@@ -128,7 +126,7 @@ const flash_sale: DataType[] = [
 	{
 		id: 3,
 		color: "bg-danger",
-		img: `${basePath}/assets/img/product/3.png`,
+		img: "/assets/img/product/3.png",
 		new_price: 36,
 		old_price: 49,
 		discount: 99,
