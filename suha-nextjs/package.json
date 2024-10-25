@@ -12,12 +12,14 @@
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "@telegram-apps/react-router-integration": "^1.0.0",
     "@telegram-apps/sdk-react": "^1.0.0",
     "@telegram-apps/telegram-ui": "^2.1.5",
     "@tonconnect/ui-react": "^2.0.5",
     "bootstrap": "^5.3.3",
     "next": "14.2.4",
+    "popper.js": "^1.16.1",
     "react": "^18",
     "react-countup": "^6.5.3",
     "react-dom": "^18",
