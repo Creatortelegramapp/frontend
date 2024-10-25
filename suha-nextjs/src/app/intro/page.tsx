@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import {basePath} from "../../../config";
 
 const index = () => {
 	return (
@@ -8,7 +9,7 @@ const index = () => {
 				<div className="container">
 					<img
 						className="big-logo"
-						src="/assets/img/core-img/logo-white.png"
+						src={`${basePath}/assets/img/core-img/logo-white.png`}
 						alt=""
 					/>
 				</div>
