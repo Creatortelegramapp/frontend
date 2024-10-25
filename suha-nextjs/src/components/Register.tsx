@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import {basePath} from "../../config";
 
 const Register = () => {
 	return (
@@ -11,7 +12,7 @@ const Register = () => {
 						<div className="col-10 col-lg-8">
 							<img
 								className="big-logo"
-								src="/assets/img/core-img/logo-white.png"
+								src={`${basePath}/assets/img/core-img/logo-white.png`}
 								alt=""
 							/>
 

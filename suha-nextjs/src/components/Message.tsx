@@ -2,6 +2,7 @@
 
 import HeaderTwo from "@/layouts/HeaderTwo";
 import React from "react";
+import {basePath} from "../../config";
 
 const Message = () => {
 	return (
@@ -11,7 +12,7 @@ const Message = () => {
 			<div className="page-content-wrapper">
 				<div className="live-chat-intro mb-3">
 					<p>Start a conversation</p>
-					<img src="/assets/img/bg-img/9.jpg" alt="" />
+					<img src={`${basePath}/assets/img/bg-img/9.jpg`} alt="" />
 					<div className="status online">We are online</div>
 				</div>
 
@@ -20,7 +21,7 @@ const Message = () => {
 						<div className="live-chat-wrapper">
 							<div className="agent-message-content d-flex align-items-start">
 								<div className="agent-thumbnail me-2 mt-2">
-									<img src="/assets/img/bg-img/9.jpg" alt="" />
+									<img src={`${basePath}/assets/img/bg-img/9.jpg`} alt="" />
 								</div>
 
 								<div className="agent-message-text">
@@ -48,7 +49,7 @@ const Message = () => {
 
 							<div className="agent-message-content d-flex align-items-start">
 								<div className="agent-thumbnail me-2 mt-2">
-									<img src="/assets/img/bg-img/9.jpg" alt="" />
+									<img src={`${basePath}/assets/img/bg-img/9.jpg`} alt="" />
 								</div>
 
 								<div className="agent-message-text">
@@ -70,7 +71,7 @@ const Message = () => {
 
 							<div className="agent-message-content d-flex align-items-start">
 								<div className="agent-thumbnail me-2 mt-2">
-									<img src="/assets/img/bg-img/9.jpg" alt="" />
+									<img src={`${basePath}/assets/img/bg-img/9.jpg`} alt="" />
 								</div>
 
 								<div className="agent-message-text">

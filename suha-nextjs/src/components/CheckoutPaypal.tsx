@@ -3,6 +3,7 @@
 import Footer from "@/layouts/Footer";
 import HeaderTwo from "@/layouts/HeaderTwo";
 import React from "react";
+import {basePath} from "../../config";
 
 const CheckoutPaypal = () => {
 	return (
@@ -16,7 +17,7 @@ const CheckoutPaypal = () => {
 						<div className="credit-card-info-wrapper">
 							<img
 								className="d-block mb-4"
-								src="/assets/img/bg-img/credit-card.png"
+								src={`${basePath}/assets/img/bg-img/credit-card.png`}
 								alt=""
 							/>
 							<div className="pay-credit-card-form">

@@ -1,4 +1,5 @@
 import React from "react";
+import {basePath} from "../../../config";
 
 const DiscountCouponCard = () => {
 	return (
@@ -9,7 +10,7 @@ const DiscountCouponCard = () => {
 						<div className="discountIcon">
 							<img
 								className="w-100"
-								src="/assets/img/core-img/discount.png"
+								src={`${basePath}/assets/img/core-img/discount.png`}
 								alt=""
 							/>
 						</div>

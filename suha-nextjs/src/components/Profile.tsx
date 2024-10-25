@@ -2,6 +2,7 @@ import Footer from "@/layouts/Footer";
 import Header from "@/layouts/Header";
 import Link from "next/link";
 import React from "react";
+import {basePath} from "../../config";
 
 const Profile = () => {
 	return (
@@ -14,7 +15,7 @@ const Profile = () => {
 						<div className="card user-info-card">
 							<div className="card-body p-4 d-flex align-items-center">
 								<div className="user-profile me-3">
-									<img src="/assets/img/bg-img/9.jpg" alt="" />
+									<img src={`${basePath}/assets/img/bg-img/9.jpg`} alt="" />
 								</div>
 								<div className="user-info">
 									<p className="mb-0 text-white">@designing-world</p>

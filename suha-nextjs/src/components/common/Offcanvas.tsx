@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import {basePath} from "../../../config";
 
 const Offcanvas = ({ handleShow, show }: any) => {
 	return (
@@ -22,7 +23,7 @@ const Offcanvas = ({ handleShow, show }: any) => {
 				<div className="offcanvas-body">
 					<div className="sidenav-profile">
 						<div className="user-profile">
-							<img src="/assets/img/bg-img/9.jpg" alt="" />
+							<img src={`${basePath}/assets/img/bg-img/9.jpg`} alt="" />
 						</div>
 						<div className="user-info">
 							<h5 className="user-name mb-1 text-white">Suha Sarah</h5>

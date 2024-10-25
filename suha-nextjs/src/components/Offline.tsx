@@ -2,6 +2,7 @@ import Footer from "@/layouts/Footer";
 import HeaderTwo from "@/layouts/HeaderTwo";
 import Link from "next/link";
 import React from "react";
+import {basePath} from "../../config";
 
 const Offline = () => {
 	return (
@@ -14,7 +15,7 @@ const Offline = () => {
 						<div className="offline-text text-center">
 							<img
 								className="mb-4 px-4"
-								src="/assets/img/bg-img/no-internet.png"
+								src={`${basePath}/assets/img/bg-img/no-internet.png`}
 								alt=""
 							/>
 							<h5>No Internet Connection!</h5>

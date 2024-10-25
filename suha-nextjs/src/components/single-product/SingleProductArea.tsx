@@ -7,6 +7,7 @@ import VideoPopup from "@/modals/VideoPopup";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import dynamic from "next/dynamic";
+import {basePath} from "../../../config";
 const MyTimer = dynamic(() => import("../common/Timer"), { ssr: false });
 
 const SingleProductArea = () => {
@@ -349,7 +350,7 @@ const SingleProductArea = () => {
 							<ul className="ps-0">
 								<li className="single-user-review d-flex">
 									<div className="user-thumbnail">
-										<img src="/assets/img/bg-img/7.jpg" alt="" />
+										<img src={`${basePath}/assets/img/bg-img/7.jpg`} alt="" />
 									</div>
 									<div className="rating-comment">
 										<div className="rating">
@@ -371,7 +372,7 @@ const SingleProductArea = () => {
 										>
 											<img
 												className="rounded-3"
-												src="/assets/img/product/3.png"
+												src={`${basePath}/assets/img/product/3.png`}
 												alt=""
 											/>
 										</a>
@@ -380,7 +381,7 @@ const SingleProductArea = () => {
 
 								<li className="single-user-review d-flex">
 									<div className="user-thumbnail">
-										<img src="/assets/img/bg-img/8.jpg" alt="" />
+										<img src={`${basePath}/assets/img/bg-img/8.jpg`} alt="" />
 									</div>
 									<div className="rating-comment">
 										<div className="rating">
@@ -402,7 +403,7 @@ const SingleProductArea = () => {
 										>
 											<img
 												className="rounded-3"
-												src="/assets/img/product/4.png"
+												src={`${basePath}/assets/img/product/4.png`}
 												alt=""
 											/>
 										</a>
@@ -412,7 +413,7 @@ const SingleProductArea = () => {
 										>
 											<img
 												className="rounded-3"
-												src="/assets/img/product/6.png"
+												src={`${basePath}/assets/img/product/6.png`}
 												alt=""
 											/>
 										</a>
@@ -421,7 +422,7 @@ const SingleProductArea = () => {
 
 								<li className="single-user-review d-flex">
 									<div className="user-thumbnail">
-										<img src="/assets/img/bg-img/9.jpg" alt="" />
+										<img src={`${basePath}/assets/img/bg-img/9.jpg`} alt="" />
 									</div>
 									<div className="rating-comment">
 										<div className="rating">

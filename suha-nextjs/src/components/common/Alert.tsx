@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import {basePath} from "../../../config";
 
 const Alert = () => {
 	const [show, setShow] = useState(true);
@@ -25,7 +26,7 @@ const Alert = () => {
 		>
 			<div className="toast-body">
 				<div className="content d-flex align-items-center mb-2">
-					<img src="/assets/img/icons/icon-72x72.png" alt="" />
+					<img src={`${basePath}/assets/img/icons/icon-72x72.png`} alt="" />
 					<h6 className="mb-0">Add to Home Screen</h6>
 					<button
 						className="btn-close ms-auto"

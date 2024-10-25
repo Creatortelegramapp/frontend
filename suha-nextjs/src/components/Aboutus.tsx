@@ -2,6 +2,7 @@ import Footer from "@/layouts/Footer";
 import HeaderTwo from "@/layouts/HeaderTwo";
 import Link from "next/link";
 import React from "react";
+import {basePath} from "../../config";
 
 const Aboutus = () => {
 	return (
@@ -13,7 +14,7 @@ const Aboutus = () => {
 					<div className="card">
 						<div className="card-body">
 							<div className="about-content-wrap dir-rtl">
-								<img className="mb-3" src="/assets/img/bg-img/12.png" alt="" />
+								<img className="mb-3" src={`${basePath}/assets/img/bg-img/12.png`} alt="" />
 								<h5>
 									We are here for your all needs. Lets together safer the world.
 									Stay at home, stay safe.
@@ -49,14 +50,14 @@ const Aboutus = () => {
 									<div className="col-6">
 										<img
 											className="mb-3 rounded"
-											src="/assets/img/bg-img/12.jpg"
+											src={`${basePath}/assets/img/bg-img/12.jpg`}
 											alt=""
 										/>
 									</div>
 									<div className="col-6">
 										<img
 											className="mb-3 rounded"
-											src="/assets/img/bg-img/16.jpg"
+											src={`${basePath}/assets/img/bg-img/16.jpg`}
 											alt=""
 										/>
 									</div>

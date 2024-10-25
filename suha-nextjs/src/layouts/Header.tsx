@@ -2,6 +2,7 @@
 import Offcanvas from "@/components/common/Offcanvas";
 import Link from "next/link";
 import React, { useState } from "react";
+import {basePath} from "../../config";
 
 const Header = () => {
 	const [show, setShow] = useState(false);
@@ -13,7 +14,7 @@ const Header = () => {
 				<div className="container h-100 d-flex align-items-center justify-content-between d-flex rtl-flex-d-row-r">
 					<div className="logo-wrapper">
 						<Link href="/home">
-							<img src="/assets/img/core-img/logo-small.png" alt="" />
+							<img src={`${basePath}/assets/img/core-img/logo-small.png`} alt="" />
 						</Link>
 					</div>
 					<div className="navbar-logo-container d-flex align-items-center">
@@ -26,7 +27,7 @@ const Header = () => {
 
 						<div className="user-profile-icon ms-2">
 							<Link href="/profile">
-								<img src="/assets/img/bg-img/9.jpg" alt="" />
+								<img src={`${basePath}/assets/img/bg-img/9.jpg`} alt="" />
 							</Link>
 						</div>
 

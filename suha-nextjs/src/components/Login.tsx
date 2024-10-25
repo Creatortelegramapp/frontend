@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import {basePath} from "../../config";
 
 const Login = () => {
 	return (
@@ -12,7 +13,7 @@ const Login = () => {
 						<div className="col-10 col-lg-8">
 							<img
 								className="big-logo"
-								src="img/core-img/logo-white.png"
+								src={`${basePath}img/core-img/logo-white.png`}
 								alt=""
 							/>
 

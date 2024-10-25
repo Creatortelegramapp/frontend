@@ -1,4 +1,5 @@
 import React from "react";
+import {basePath} from "../../config";
 
 const ForgetPassword = () => {
 	return (
@@ -9,7 +10,7 @@ const ForgetPassword = () => {
 						<div className="col-10 col-lg-8">
 							<img
 								className="big-logo"
-								src="img/core-img/logo-white.png"
+								src={`${basePath}img/core-img/logo-white.png`}
 								alt=""
 							/>
 

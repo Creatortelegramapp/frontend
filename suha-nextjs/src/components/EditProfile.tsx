@@ -2,6 +2,7 @@
 import Footer from "@/layouts/Footer";
 import HeaderTwo from "@/layouts/HeaderTwo";
 import React from "react";
+import {basePath} from "../../config";
 
 const EditProfile = () => {
 	return (
@@ -14,7 +15,7 @@ const EditProfile = () => {
 						<div className="card user-info-card">
 							<div className="card-body p-4 d-flex align-items-center">
 								<div className="user-profile me-3">
-									<img src="/assets/img/bg-img/9.jpg" alt="" />
+									<img src={`${basePath}/assets/img/bg-img/9.jpg`} alt="" />
 									<div className="change-user-thumb">
 										<form onSubmit={(e) => e.preventDefault()}>
 											<input className="form-control-file" type="file" />

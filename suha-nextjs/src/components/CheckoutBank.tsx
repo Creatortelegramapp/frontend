@@ -2,6 +2,7 @@ import Footer from "@/layouts/Footer";
 import HeaderTwo from "@/layouts/HeaderTwo";
 import Link from "next/link";
 import React from "react";
+import {basePath} from "../../config";
 
 const CheckoutBank = () => {
 	return (
@@ -14,7 +15,7 @@ const CheckoutBank = () => {
 						<div className="credit-card-info-wrapper">
 							<img
 								className="d-block mb-4"
-								src="/assets/img/bg-img/credit-card.png"
+								src={`${basePath}/assets/img/bg-img/credit-card.png`}
 								alt=""
 							/>
 							<div className="bank-ac-info">

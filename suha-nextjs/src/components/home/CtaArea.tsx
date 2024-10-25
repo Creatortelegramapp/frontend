@@ -1,4 +1,5 @@
 import React from "react";
+import {basePath} from "../../../config";
 
 const CtaArea = () => {
 	return (
@@ -13,7 +14,7 @@ const CtaArea = () => {
 							</a>
 						</div>
 					</div>
-					<img src="/assets/img/bg-img/make-up.png" alt="" />
+					<img src={`${basePath}/assets/img/bg-img/make-up.png`} alt="" />
 				</div>
 			</div>
 		</>
