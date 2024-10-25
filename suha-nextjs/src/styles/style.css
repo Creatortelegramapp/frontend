@@ -4,7 +4,7 @@
 
  
 @import "swiper/css/bundle";   
-@import "/node_modules/bootstrap/scss/bootstrap.scss"; 
+@import "/frontend/suha-nextjs/out/assets/css/bootstrap.min.css";
 
 @import "../../public/assets/css/animate.css";
 @import "../../public/assets/css/nice-select.css";
